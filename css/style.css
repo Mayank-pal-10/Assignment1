@@ -1,0 +1,76 @@
+/* Global body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151A14;
+    font-family: 'Edu AU VIC WA NT Dots', cursive; /* Default font */
+}
+
+/* Header section styling */
+header h1 {
+    height: 3em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    background-color: #301a74;
+    font-family: 'Lobster', cursive; /* Applying Lobster font */
+}
+
+/* Music video section styling */
+.musicvideo {
+    height: 35em;
+}
+
+/* Responsive iframe video */
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+/* Album and song title section styling */
+.NameAlbum {
+    display: flex;
+    background-color: darkred;
+    width: 70em;
+    margin: 65px auto 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color: khaki;
+}
+
+/* Album image styling */
+.album {
+    padding: 60px;
+}
+
+/* Song name styling */
+.songName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Lyrics section styling */
+.lyrics {
+    text-align: center;
+    color: bisque;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Footer section styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #301a74;
+    color: floralwhite;
+    font-size: 1.2em;
+}
+
+/* Adding comments for maintainability */
